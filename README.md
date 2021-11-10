@@ -18,3 +18,10 @@ Especially for Multi-exposure Fusion and High Dynamic Range Imaging
 |U2Fusion: A Unified Unsupervised Image Fusion Network | U2Fusion | [TPAMI-2020](https://www.researchgate.net/profile/Jiayi-Ma-2/publication/343218239_U2Fusion_A_Unified_Unsupervised_Image_Fusion_Network/links/5f1fd81645851515ef50431c/U2Fusion-A-Unified-Unsupervised-Image-Fusion-Network.pdf) | [U2Fusion](https://github.com/hanna-xu/U2Fusion) | Unsupervised Learning | Static |
 |Deep Guided Learning for Fast Multi-Exposure Image Fusion | MEF-Net | [TIP-2020](https://ece.uwaterloo.ca/~k29ma/papers/19_TIP_MEF-Net.pdf)| [MEF-Net](https://github.com/makedede/MEFNet) | Unsupervised Learning, Guided Filter | Static |
 |Deep HDR Imaging via A Non-Local Network| NHDRRnet | [TIP-2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8989959) | [NHDRRnet](https://github.com/tuvovan/NHDRRNet) | Non-local | Dynamic |
+
+## Traditional Approaches
+| Title                   | Model                               | Paper                         | Code                          |            Main Idea or Key Words | Label | Year |
+|-------------------------|-------------------------------------|-------------------------------|-------------------------------|-----------------------------------|-------|------|
+|Detail-Preserving Multi-Exposure Fusion with Edge-Preserving Structural Patch Decomposition | MSPD-MEF | [TCSVT-2021](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9330785) | [MSPD-MEF](https://github.com/xiaohuiben/MESPD_TCSVT-2021) | Structural Patch Decomposition | Static & Dynamic | 2021 |
+|Fast Multi-Scale Structural Patch Decomposition for Multi-Exposure Image Fusion | FMMEF | [TIP-2020](https://ece.uwaterloo.ca/~k29ma/papers/20_TIP_MS-SPF-MEF.pdf) | [FMMEF](https://github.com/xiaohuiben/fmmef-TIP-2020) | Multi-scale, Structural Patch Decomposition | Static & Dynamic |2020|
+|Robust Multi-Exposure Image Fusion: A Structural Patch Decomposition Approach| SPD-MEF | [TIP-2017](https://ece.uwaterloo.ca/~k29ma/papers/17_TIP_SPD-MEF.pdf) | [SPD-MEF](https://ece.uwaterloo.ca/~k29ma/codes/SPD-MEF.rar) | Robust, Structural Patch Decomposition | Static & Dynamic | 2017 |
