@@ -12,6 +12,8 @@ Especially for Multi-exposure Fusion and High Dynamic Range Imaging
 |Labeled from Unlabeled: Exploiting Unlabeled Data for Few-shot Deep HDR Deghosting | FSHDR | [CVPR-2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Prabhakar_Labeled_From_Unlabeled_Exploiting_Unlabeled_Data_for_Few-Shot_Deep_HDR_CVPR_2021_paper.pdf) | [FSHDR](https://github.com/Susmit-A/FSHDR) | Few-shot Learning | Dynamic |
 |Dual-Attention-Guided Network for Ghost-Free High Dynamic Range Imaging | DAHDRNet | [IJCV-2021](https://link.springer.com/content/pdf/10.1007/s11263-021-01535-y.pdf) | - | Dual-attention | Dynamic |
 |Hierarchical Fusion for Practical Ghost-free High Dynamic Range Imaging | HFNet | [ACMMM-2021](https://dl.acm.org/doi/pdf/10.1145/3474085.3475260) | - | Mask | Dynamic |
+|IFCNN: A general image fusion framework based on convolutional neural network|IFCNN|[Information Fusion-2021](https://reader.elsevier.com/reader/sd/pii/S1566253518305505?token=ACC5F47A0B1290F77201B2C383AA4F6BEEEE32B552BF3D5C661D5EBFC5AD6CA412C410E2782F87424429D79A1BD83374&originRegion=us-east-1&originCreation=20211112091259)| [IFCNN](https://github.com/uzeful/IFCNN) | Salient Features | Static |
+|Multi-exposure image fusion via deep perceptual enhancement | DPE-MEF | [Information Fusion-2021](https://reader.elsevier.com/reader/sd/pii/S1566253521002049?token=E024D57C2BEA2F5188A6EE08246A998D95C171B04869B2583650F117B55D88B1C17FE48D20A107FA713C4BEF28635B17&originRegion=us-east-1&originCreation=20211112090811) | [DPE-MEF](https://github.com/dongdong4fei/DPE-MEF) | Perceptual Enhancement | Static |
 
 ### 2020
 | Title                   | Model                               | Paper                         | Code                          |            Main Idea or Key Words | Label |
