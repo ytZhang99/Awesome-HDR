@@ -35,7 +35,7 @@ Especially for Multi-exposure Fusion and High Dynamic Range Imaging
 ### 2018
 | Title                   | Model                               | Paper                         | Code                          |            Main Idea or Key Words | Label |
 |-------------------------|-------------------------------------|-------------------------------|-------------------------------|-----------------------------------|-------|
-| Deep high dynamic range imaging with large foreground motions | DeepHDR | [ECCV-2018](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangzhe_Wu_Deep_High_Dynamic_ECCV_2018_paper.pdf) | [DeepHDR]https://github.com/elliottwu/DeepHDR) | First End-to-End, U-Net | Dynamic |
+| Deep high dynamic range imaging with large foreground motions | DeepHDR | [ECCV-2018](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangzhe_Wu_Deep_High_Dynamic_ECCV_2018_paper.pdf) | [DeepHDR](https://github.com/elliottwu/DeepHDR) | First End-to-End, U-Net | Dynamic |
 
 ### 2017
 | Title                   | Model                               | Paper                         | Code                          |            Main Idea or Key Words | Label |
