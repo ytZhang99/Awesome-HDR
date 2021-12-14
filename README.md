@@ -32,6 +32,11 @@ Especially for Multi-exposure Fusion and High Dynamic Range Imaging
 |-------------------------|-------------------------------------|-------------------------------|-------------------------------|-----------------------------------|-------|
 | Attention-guided Network for Ghost-free High Dynamic Range Imaging | AHDRNet | [CVPR-2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yan_Attention-Guided_Network_for_Ghost-Free_High_Dynamic_Range_Imaging_CVPR_2019_paper.pdf) | [AHDRNet](https://donggong1.github.io/ahdr) | Attention | Dynamic |
 
+### 2018
+| Title                   | Model                               | Paper                         | Code                          |            Main Idea or Key Words | Label |
+|-------------------------|-------------------------------------|-------------------------------|-------------------------------|-----------------------------------|-------|
+| Deep high dynamic range imaging with large foreground motions | DeepHDR | [ECCV-2018](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shangzhe_Wu_Deep_High_Dynamic_ECCV_2018_paper.pdf) | [DeepHDR]https://github.com/elliottwu/DeepHDR) | First End-to-End, U-Net | Dynamic |
+
 ### 2017
 | Title                   | Model                               | Paper                         | Code                          |            Main Idea or Key Words | Label |
 |-------------------------|-------------------------------------|-------------------------------|-------------------------------|-----------------------------------|-------|
