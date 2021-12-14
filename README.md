@@ -1,6 +1,6 @@
 # Awesome-HDR (in progress)
-Collect High Dynamic Range Imaging Related Papers and Codes.
-Especially for Multi-exposure Fusion and High Dynamic Range Imaging
+Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and **High Dynamic Range Imaging**) Related Papers and Codes.
+
 
 ## Deep Learning Based Approaches
 
