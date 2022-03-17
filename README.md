@@ -8,6 +8,7 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 | Title                   | Model                               | Paper                         | Code                          |     Main Idea or Key Words | Label |
 |-------------------------|-------------------------------------|-------------------------------|-------------------------------|----------------------------|-------|
 |TransMEF: A Transformer-Based Multi-exposure Image Fusion Framework using self-supervised Multi-Task Learning| TransMEF | [AAAI-2022](https://arxiv.org/pdf/2112.01030) | [TransMEF](https://github.com/miccaiif/TransMEF) | Transformer, Self-supervised learning | Static |
+|Dual-Attention-Guided Network for Ghost-Free High Dynamic Range Imaging | DAHDRNet | [IJCV-2022](https://link.springer.com/content/pdf/10.1007/s11263-021-01535-y.pdf) | - | Dual-attention | Dynamic |
 
 ### 2021
 | Title                   | Model                               | Paper                         | Code                          |     Main Idea or Key Words | Label |
@@ -15,7 +16,6 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 |ADNet: Attention-guided deformable convolutional network for high dynamic range imaging | ADNet | [CVPR-2021W](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Liu_ADNet_Attention-Guided_Deformable_Convolutional_Network_for_High_Dynamic_Range_Imaging_CVPRW_2021_paper.pdf) | [ADNet](https://github.com/Pea-Shooter/ADNet) | Deformable Convolution | Dynamic |
 |Deep Coupled Feedback Network for Joint Exposure Fusion and Image Super-Resolution | CF-Net | [TIP-2021](https://www.researchgate.net/profile/Yutong-Zhang-27/publication/349458866_Deep_Coupled_Feedback_Network_for_Joint_Exposure_Fusion_and_Image_Super-Resolution/links/60ab15e2a6fdcc6d626d23f3/Deep-Coupled-Feedback-Network-for-Joint-Exposure-Fusion-and-Image-Super-Resolution.pdf) | [CF-Net](https://github.com/ytZhang99/CF-Net) | Joint MEF and SR, Feedback Mechanism | Static |
 |Labeled from Unlabeled: Exploiting Unlabeled Data for Few-shot Deep HDR Deghosting | FSHDR | [CVPR-2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Prabhakar_Labeled_From_Unlabeled_Exploiting_Unlabeled_Data_for_Few-Shot_Deep_HDR_CVPR_2021_paper.pdf) | [FSHDR](https://github.com/Susmit-A/FSHDR) | Few-shot Learning | Dynamic |
-|Dual-Attention-Guided Network for Ghost-Free High Dynamic Range Imaging | DAHDRNet | [IJCV-2021](https://link.springer.com/content/pdf/10.1007/s11263-021-01535-y.pdf) | - | Dual-attention | Dynamic |
 |Hierarchical Fusion for Practical Ghost-free High Dynamic Range Imaging | HFNet | [ACMMM-2021](https://dl.acm.org/doi/pdf/10.1145/3474085.3475260) | - | Mask | Dynamic |
 |IFCNN: A general image fusion framework based on convolutional neural network|IFCNN|[Information Fusion-2021](https://reader.elsevier.com/reader/sd/pii/S1566253518305505?token=ACC5F47A0B1290F77201B2C383AA4F6BEEEE32B552BF3D5C661D5EBFC5AD6CA412C410E2782F87424429D79A1BD83374&originRegion=us-east-1&originCreation=20211112091259)| [IFCNN](https://github.com/uzeful/IFCNN) | Salient Features | Static |
 |Multi-exposure image fusion via deep perceptual enhancement | DPE-MEF | [Information Fusion-2021](https://reader.elsevier.com/reader/sd/pii/S1566253521002049?token=E024D57C2BEA2F5188A6EE08246A998D95C171B04869B2583650F117B55D88B1C17FE48D20A107FA713C4BEF28635B17&originRegion=us-east-1&originCreation=20211112090811) | [DPE-MEF](https://github.com/dongdong4fei/DPE-MEF) | Perceptual Enhancement | Static |
@@ -45,6 +45,8 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 | Title                   | Model                               | Paper                         | Code                          |            Main Idea or Key Words | Label |
 |-------------------------|-------------------------------------|-------------------------------|-------------------------------|-----------------------------------|-------|
 |DeepFuse: A Deep Unsupervised Approach for Exposure Fusion with Extreme Exposure Image Pairs| DeepFuse | [ICCV-2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Prabhakar_DeepFuse_A_Deep_ICCV_2017_paper.pdf) | - | Extreme Exposure Fusion, Unsupervised | Static |
+|Deep High Dynamic Range Imaging of Dynamic Scenes|Kalantari|[ACM-TOG-2017](https://people.engr.tamu.edu/nimak/Data/SIGGRAPH17_HDR_LoRes.pdf) |[Kalantari](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/)|Resgistration, Large Dataset| Dynamic |
+|HDR image reconstruction from a single exposure using deep CNNs|HDRCNN|[ACM-TOG-2017](https://arxiv.org/abs/1710.07480)|[HDRCNN](https://github.com/gabrieleilertsen/hdrcnn)|Single Image HDR | Static & Dynamic |
 
 ## Traditional Approaches
 | Title                   | Model                               | Paper                         | Code                          |            Main Idea or Key Words | Label | Year |
