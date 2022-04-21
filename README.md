@@ -63,5 +63,5 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 ## HDR Image Quality Evaluation Metrics
 | Title    |      Metric       |      Paper         | Code        |       Domain & Scene  |       Year   |
 |-----------------|------------------|----------------------|-------------------|----------------|----------------------|
-| Perceptual Evalutation for Multi-Exposure Image Fusion of Dynamic Scenes | MEF-SSIMd | [TIP-2020](https://ece.uwaterloo.ca/~k29ma/papers/19_TIP_MEF-SSIMd.pdf) | [MEF-SSIMd](https://github.com/h4nwei/MEF-SSIMd) | LDR & static | 2020 |
+| Perceptual Evalutation for Multi-Exposure Image Fusion of Dynamic Scenes | MEF-SSIMd | [TIP-2020](https://ece.uwaterloo.ca/~k29ma/papers/19_TIP_MEF-SSIMd.pdf) | [MEF-SSIMd](https://github.com/h4nwei/MEF-SSIMd) | LDR & dynamic | 2020 |
 | Perceptual Quality Assessment for Multi-Exposure Image Fusion | MEF-SSIM | [TIP-2015](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.709.9646&rep=rep1&type=pdf) | [MEF-SSIM](https://ece.uwaterloo.ca/~k29ma/codes/MEF.rar) | LDR & static | 2015 |
