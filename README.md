@@ -1,5 +1,5 @@
 # Awesome-HDR (in progress)
-Collect High Dynamic Range Imaging (HDRI) (especially for **Multi-exposure Fusion** and **High Dynamic Range Imaging**) Related Papers and Codes.
+Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and **High Dynamic Range Imaging**) Related Papers and Codes.
 
 
 ## Deep Learning Based Approaches
