@@ -30,6 +30,7 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 |Deep HDR Imaging via A Non-Local Network| NHDRRnet | [TIP-2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8989959) | [NHDRRnet](https://github.com/tuvovan/NHDRRNet) | Non-local | Dynamic |
 |Unsupervised Deep Image Fusion With Structure Tensor Representations | DIF-Net | [TIP-2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8962327) | [DIF-Net](https://github.com/kimphys/DIFNet.pytorch) | Unsupervised Learning, Structure Tensor Representations | Static |
 |MEF-GAN: Multi-Exposure Image Fusion via Generative Adversarial Networks | MEF-GAN | [TIP-2020](https://drive.google.com/file/d/1EHik52It9YJnxb1loSsXrZ168l_Uljnz/view) |[MEF-GAN](https://github.com/jiayi-ma/MEF-GAN) | GAN | Static |
+|Towards Practical and Efficient High-Resolution HDR Deghosting with CNN| HR-HDR | [ECCV-2020](https://www.researchgate.net/profile/Balraj-Ashwath-2/publication/346658902_Towards_Practical_and_Efficient_High-Resolution_HDR_Deghosting_with_CNN/links/5fcd1c0592851c00f856f2a3/Towards-Practical-and-Efficient-High-Resolution-HDR-Deghosting-with-CNN.pdf) | - | Bilateral Guided Upsampler, Efficient | Dynamic |
 
 
 ### 2019
@@ -56,6 +57,7 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 |Fast Multi-Scale Structural Patch Decomposition for Multi-Exposure Image Fusion | FMMEF | [TIP-2020](https://ece.uwaterloo.ca/~k29ma/papers/20_TIP_MS-SPF-MEF.pdf) | [FMMEF](https://github.com/xiaohuiben/fmmef-TIP-2020) | Multi-scale, Structural Patch Decomposition | Static & Dynamic |2020|
 |Robust Multi-Exposure Image Fusion: A Structural Patch Decomposition Approach| SPD-MEF | [TIP-2017](https://ece.uwaterloo.ca/~k29ma/papers/17_TIP_SPD-MEF.pdf) | [SPD-MEF](https://ece.uwaterloo.ca/~k29ma/codes/SPD-MEF.rar) | Robust, Structural Patch Decomposition | Static & Dynamic | 2017 |
 |Robust High Dynamic Range Imaging by Rank Minimization| RHDR | [TPAMI-2015](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6915885) | [RHDR](https://github.com/ytZhang99/Awesome-HDR/blob/master/code/Oh.zip) | Rank Minimization | Dynamic | 2015 |
+|Ghost-Free High Dynamic Range Imaging via Rank Minimization| RM-HDR | [SPL-2014](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6814772) | [RM-HDR](http://cilab.dongguk.edu/research/rm_hdr/RM_HDR_v_0_1.zip) | Rank Minimization | Dynamic | 2014 |
 |HDR Deghosting: How to deal with Saturation? | Hu | [CVPR-2013](http://openaccess.thecvf.com/content_cvpr_2013/papers/Hu_HDR_Deghosting_How_2013_CVPR_paper.pdf) | [Hu](https://junhu-svd.github.io/public_html/CVPR2013/) | Registration | Dynamic | 2013 |
 |Robust Patch-Based HDR Reconstruction of Dynamic Scenes | Sen | [ACM-TOG-2012](https://people.engr.tamu.edu/nimak/Data/SIGASIA12_HDR_PatchBasedReconstruction_LoRes.pdf) | [Sen](https://web.ece.ucsb.edu/~psen/hdrvideo) | Patch-Based Registration | Dynamic |2012|
 
