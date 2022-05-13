@@ -58,12 +58,15 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 |Robust Multi-Exposure Image Fusion: A Structural Patch Decomposition Approach| SPD-MEF | [TIP-2017](https://ece.uwaterloo.ca/~k29ma/papers/17_TIP_SPD-MEF.pdf) | [SPD-MEF](https://ece.uwaterloo.ca/~k29ma/codes/SPD-MEF.rar) | Robust, Structural Patch Decomposition | Static & Dynamic | 2017 |
 |Robust High Dynamic Range Imaging by Rank Minimization| RHDR | [TPAMI-2015](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6915885) | [RHDR](https://github.com/ytZhang99/Awesome-HDR/blob/master/code/Oh.zip) | Rank Minimization | Dynamic | 2015 |
 |Ghost-Free High Dynamic Range Imaging via Rank Minimization| RM-HDR | [SPL-2014](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6814772) | [RM-HDR](http://cilab.dongguk.edu/research/rm_hdr/RM_HDR_v_0_1.zip) | Rank Minimization | Dynamic | 2014 |
-|HDR Deghosting: How to deal with Saturation? | Hu | [CVPR-2013](http://openaccess.thecvf.com/content_cvpr_2013/papers/Hu_HDR_Deghosting_How_2013_CVPR_paper.pdf) | [Hu](https://junhu-svd.github.io/public_html/CVPR2013/) | Registration | Dynamic | 2013 |
-|Robust Patch-Based HDR Reconstruction of Dynamic Scenes | Sen | [ACM-TOG-2012](https://people.engr.tamu.edu/nimak/Data/SIGASIA12_HDR_PatchBasedReconstruction_LoRes.pdf) | [Sen](https://web.ece.ucsb.edu/~psen/hdrvideo) | Patch-Based Registration | Dynamic |2012|
+|HDR Deghosting: How to deal with Saturation? | Hu *et al.* | [CVPR-2013](http://openaccess.thecvf.com/content_cvpr_2013/papers/Hu_HDR_Deghosting_How_2013_CVPR_paper.pdf) | [Hu](https://junhu-svd.github.io/public_html/CVPR2013/) | Registration | Dynamic | 2013 |
+|Robust Patch-Based HDR Reconstruction of Dynamic Scenes | Sen *et al.* | [ACM-TOG-2012](https://people.engr.tamu.edu/nimak/Data/SIGASIA12_HDR_PatchBasedReconstruction_LoRes.pdf) | [Sen](https://web.ece.ucsb.edu/~psen/hdrvideo) | Patch-Based Registration | Dynamic |2012|
+| Freehand HDR Imaging of Moving Scenes with SImultaneous Resolution Enhancement| Zimmer *et al.* | [EUROGRAPHICS-2011](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-8659.2011.01870.x) | - | Joint SR and HDR, Energe-based Optic Flow | Dynamic | 2011 |
+|Exposure Fusion| Mertens *et al.* |[Pacific-Graphics-2007](https://mericam.github.io/papers/exposure_fusion_reduced.pdf) | [Mertens](https://mericam.github.io/exposure_fusion/exposure_fusion.zip) | Laplacian Decomposition and Gaussian Pyramid | Static | 2007 |
 
 
 ## HDR Image Quality Evaluation Metrics
-| Title    |      Metric       |      Paper         | Code        |       Domain & Scene  |       Year   |
-|-----------------|------------------|----------------------|-------------------|----------------|----------------------|
-| Perceptual Evalutation for Multi-Exposure Image Fusion of Dynamic Scenes | MEF-SSIMd | [TIP-2020](https://ece.uwaterloo.ca/~k29ma/papers/19_TIP_MEF-SSIMd.pdf) | [MEF-SSIMd](https://github.com/h4nwei/MEF-SSIMd) | LDR & dynamic | 2020 |
-| Perceptual Quality Assessment for Multi-Exposure Image Fusion | MEF-SSIM | [TIP-2015](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.709.9646&rep=rep1&type=pdf) | [MEF-SSIM](https://ece.uwaterloo.ca/~k29ma/codes/MEF.rar) | LDR & static | 2015 |
+| Title    |      Metric       |      Paper         | Code        |    Scene  | Type |       Year   |
+|-----------------|------------------|----------------------|-------------------|----------------|----|------------------|
+| Perceptual Evalutation for Multi-Exposure Image Fusion of Dynamic Scenes | MEF-SSIMd | [TIP-2020](https://ece.uwaterloo.ca/~k29ma/papers/19_TIP_MEF-SSIMd.pdf) | [MEF-SSIMd](https://github.com/h4nwei/MEF-SSIMd) | Dynamic | No-reference | 2020 |
+| Perceptual Quality Assessment for Multi-Exposure Image Fusion | MEF-SSIM | [TIP-2015](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.709.9646&rep=rep1&type=pdf) | [MEF-SSIM](https://ece.uwaterloo.ca/~k29ma/codes/MEF.rar) | Static | No-reference | 2015 |
+| HDR-VDP-2: A Calibrated Visual Metric for Visibility and Quality Predictions in All Luminance Conditions | HDR-VDP-2 | [SIGGRAPH-2011](http://hdrvdp.sourceforge.net/hdrvdp.pdf) | [HDR-VDP-2](https://sourceforge.net/projects/hdrvdp/files/hdrvdp/) | Dynamic | Full-reference | 2011 |
