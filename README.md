@@ -15,6 +15,7 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 |-------------------------|-------------------------------------|-------------------------------|-------------------------------|----------------------------|-------|
 |ADNet: Attention-guided deformable convolutional network for high dynamic range imaging | ADNet | [CVPRW-2021](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Liu_ADNet_Attention-Guided_Deformable_Convolutional_Network_for_High_Dynamic_Range_Imaging_CVPRW_2021_paper.pdf) | [ADNet](https://github.com/Pea-Shooter/ADNet) | Deformable Convolution | Dynamic |
 |Deep Coupled Feedback Network for Joint Exposure Fusion and Image Super-Resolution | CF-Net | [TIP-2021](https://www.researchgate.net/profile/Yutong-Zhang-27/publication/349458866_Deep_Coupled_Feedback_Network_for_Joint_Exposure_Fusion_and_Image_Super-Resolution/links/60ab15e2a6fdcc6d626d23f3/Deep-Coupled-Feedback-Network-for-Joint-Exposure-Fusion-and-Image-Super-Resolution.pdf) | [CF-Net](https://github.com/ytZhang99/CF-Net) | Joint MEF and SR, Feedback Mechanism | Static |
+|Self-Gated Memory Recurrent Network for Efficient Scalable HDR deghosting | HDRRNN | [TCI-2021](https://arxiv.org/pdf/2112.13050.pdf) | [HDRRNN](https://github.com/Susmit-A/HDRRNN) | Recurrent Network | Dynamic |
 |HDR-GAN: HDR Image Reconstruction From Multi-Exposed LDR Images With Large Motions | HDR-GAN | [TIP-2021](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9387148) | [HDR-GAN](https://github.com/nonu116/HDR-GAN) | GAN | Dynamic |
 |Labeled from Unlabeled: Exploiting Unlabeled Data for Few-shot Deep HDR Deghosting | FSHDR | [CVPR-2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Prabhakar_Labeled_From_Unlabeled_Exploiting_Unlabeled_Data_for_Few-Shot_Deep_HDR_CVPR_2021_paper.pdf) | [FSHDR](https://github.com/Susmit-A/FSHDR) | Few-shot Learning | Dynamic |
 |Hierarchical Fusion for Practical Ghost-free High Dynamic Range Imaging | HFNet | [ACMMM-2021](https://dl.acm.org/doi/pdf/10.1145/3474085.3475260) | - | Mask | Dynamic |
@@ -63,10 +64,24 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 | Freehand HDR Imaging of Moving Scenes with SImultaneous Resolution Enhancement| Zimmer *et al.* | [EUROGRAPHICS-2011](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-8659.2011.01870.x) | - | Joint SR and HDR, Energe-based Optic Flow | Dynamic | 2011 |
 |Exposure Fusion| Mertens *et al.* |[Pacific-Graphics-2007](https://mericam.github.io/papers/exposure_fusion_reduced.pdf) | [Mertens](https://mericam.github.io/exposure_fusion/exposure_fusion.zip) | Laplacian Decomposition and Gaussian Pyramid | Static | 2007 |
 
+## HDR Image Datasets
+| Dataset | Source | Download | Type | Size | Year |
+|---------|--------|----------|------|------|------|
+| IISc_VAL_HDRRNN_dataset | [TCI-2021](https://arxiv.org/pdf/2112.13050.pdf) | [Download](https://www.kaggle.com/datasets/c6041c14fc6205107db8b329cda630aefe14740347b20cf3e62662e4b730c2d9) | Dynamic | 84 sequences, 588 images | 2021 |
+| DeghostingIQADatabase | [TIP-2020](http://sim.jxufe.cn/JDMKL/pdf/19_TIP_MEF-SSIMd.pdf) | [Download](http://sim.jxufe.cn/JDMKL/code/DeghostingIQADatabase.rar) | Dynamic | 20 sequences, 180 images | 2020 |
+| SICE | [TIP-2018](https://openreview.net/pdf?id=akJxphj5VC) | [Download](https://github.com/csjcai/SICE) | Static | 589 sequences, 4413 images | 2018 |
+| MEF-IQA | [TCI-2018](https://kedema.org/paper/18_TCI_MEFOpt.pdf) | [Download](https://ece.uwaterloo.ca/~k29ma/dataset/MEFOpt_Database) | Static | 24 sequences | 2018 |
 
-## HDR Image Quality Evaluation Metrics
+
+
+## HDR Image Fusion Quality Evaluation Metrics
 | Title    |      Metric       |      Paper         | Code        |    Scene  | Type |       Year   |
 |-----------------|------------------|----------------------|-------------------|----------------|----|------------------|
-| Perceptual Evalutation for Multi-Exposure Image Fusion of Dynamic Scenes | MEF-SSIMd | [TIP-2020](https://ece.uwaterloo.ca/~k29ma/papers/19_TIP_MEF-SSIMd.pdf) | [MEF-SSIMd](https://github.com/h4nwei/MEF-SSIMd) | Dynamic | No-reference | 2020 |
-| Perceptual Quality Assessment for Multi-Exposure Image Fusion | MEF-SSIM | [TIP-2015](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.709.9646&rep=rep1&type=pdf) | [MEF-SSIM](https://ece.uwaterloo.ca/~k29ma/codes/MEF.rar) | Static | No-reference | 2015 |
-| HDR-VDP-2: A Calibrated Visual Metric for Visibility and Quality Predictions in All Luminance Conditions | HDR-VDP-2 | [SIGGRAPH-2011](http://hdrvdp.sourceforge.net/hdrvdp.pdf) | [HDR-VDP-2](https://sourceforge.net/projects/hdrvdp/files/hdrvdp/) | Dynamic | Full-reference | 2011 |
+| Superpixel-Based Quality Assessment of Multi-Exposure Image Fusion for Both Static and Dynamic Scenes | Fang-2021 | [TIP-2021](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9337173) | - | Static & Dynamic | NR | 2021 |
+| Perceptual Evalutation for Multi-Exposure Image Fusion of Dynamic Scenes | MEF-SSIMd | [TIP-2020](https://ece.uwaterloo.ca/~k29ma/papers/19_TIP_MEF-SSIMd.pdf) | [MEF-SSIMd](https://github.com/h4nwei/MEF-SSIMd) | Dynamic | NR | 2020 |
+| Image Quality Assessment of Multi-Exposure Image Fusion for Both Static and Dynamic Scenes | Fang-2019 | [ICME-2019](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8784707) | - | Static & Dynamic | NR | 2019 |
+| Multi-Exposure Image Fusion by Optimizing A Structural Similarity Index | MEF-SSIMc | [TCI-2018](https://kedema.org/paper/18_TCI_MEFOpt.pdf) | [MEF-SSIMc](https://kedema.org/code/MEFOpt.rar) | Static | NR | 2018 | 
+| Perceptual Quality Assessment of HDR Deghosting Algorithms | Fang-2017 | [ICIP-2017](https://ece.uwaterloo.ca/~z70wang/publications/icip17a.pdf) | - | Dynamic | NR | 2017 |
+| An Objective Deghosting Quality Metric for HDR Images | Tursun *et al.* | [EUROGRAPHICS-2016](https://aykuterdem.github.io/papers/eg16.pdf) | [Tursun *et al.*](https://user.ceng.metu.edu.tr/~akyuz/files/eg2016/index.html) | Dynamic | RR | 2016 |
+| Perceptual Quality Assessment for Multi-Exposure Image Fusion | MEF-SSIM | [TIP-2015](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.709.9646&rep=rep1&type=pdf) | [MEF-SSIM](https://ece.uwaterloo.ca/~k29ma/codes/MEF.rar) | Static | NR | 2015 |
+| HDR-VDP-2: A Calibrated Visual Metric for Visibility and Quality Predictions in All Luminance Conditions | HDR-VDP-2 | [SIGGRAPH-2011](http://hdrvdp.sourceforge.net/hdrvdp.pdf) | [HDR-VDP-2](https://sourceforge.net/projects/hdrvdp/files/hdrvdp/) | Dynamic | FR | 2011 |
