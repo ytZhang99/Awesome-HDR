@@ -64,13 +64,14 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 | Freehand HDR Imaging of Moving Scenes with SImultaneous Resolution Enhancement| Zimmer *et al.* | [EUROGRAPHICS-2011](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-8659.2011.01870.x) | - | Joint SR and HDR, Energe-based Optic Flow | Dynamic | 2011 |
 |Exposure Fusion| Mertens *et al.* |[Pacific-Graphics-2007](https://mericam.github.io/papers/exposure_fusion_reduced.pdf) | [Mertens](https://mericam.github.io/exposure_fusion/exposure_fusion.zip) | Laplacian Decomposition and Gaussian Pyramid | Static | 2007 |
 
-## HDR Image Datasets
+## HDR Image Fusion Datasets
 | Dataset | Source | Download | Type | Size | Year |
 |---------|--------|----------|------|------|------|
 | IISc_VAL_HDRRNN_dataset | [TCI-2021](https://arxiv.org/pdf/2112.13050.pdf) | [Download](https://www.kaggle.com/datasets/c6041c14fc6205107db8b329cda630aefe14740347b20cf3e62662e4b730c2d9) | Dynamic | 84 sequences, 588 images | 2021 |
 | DeghostingIQADatabase | [TIP-2020](http://sim.jxufe.cn/JDMKL/pdf/19_TIP_MEF-SSIMd.pdf) | [Download](http://sim.jxufe.cn/JDMKL/code/DeghostingIQADatabase.rar) | Dynamic | 20 sequences, 180 images | 2020 |
 | SICE | [TIP-2018](https://openreview.net/pdf?id=akJxphj5VC) | [Download](https://github.com/csjcai/SICE) | Static | 589 sequences, 4413 images | 2018 |
 | MEF-IQA | [TCI-2018](https://kedema.org/paper/18_TCI_MEFOpt.pdf) | [Download](https://ece.uwaterloo.ca/~k29ma/dataset/MEFOpt_Database) | Static | 24 sequences | 2018 |
+| Kalantari_dataset | [ACM-TOG-2017](https://people.engr.tamu.edu/nimak/Data/SIGGRAPH17_HDR_LoRes.pdf) | [Download](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/) | Dynamic | 89 sequences, 267 images | 2017 |
 
 
 
