@@ -67,11 +67,13 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 ## HDR Image Fusion Datasets
 | Dataset | Source | Download | Type | Size | Year |
 |---------|--------|----------|------|------|------|
+| NTIRE_2021_HDR_dataset | [CVPRW-2021](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Perez-Pellitero_NTIRE_2021_Challenge_on_High_Dynamic_Range_Imaging_Dataset_Methods_CVPRW_2021_paper.pdf) | [Download](https://competitions.codalab.org/competitions/28162#learn_the_details)| Dynamic | 1760 sequences | 2021 |
 | IISc_VAL_HDRRNN_dataset | [TCI-2021](https://arxiv.org/pdf/2112.13050.pdf) | [Download](https://www.kaggle.com/datasets/c6041c14fc6205107db8b329cda630aefe14740347b20cf3e62662e4b730c2d9) | Dynamic | 84 sequences, 588 images | 2021 |
 | DeghostingIQADatabase | [TIP-2020](http://sim.jxufe.cn/JDMKL/pdf/19_TIP_MEF-SSIMd.pdf) | [Download](http://sim.jxufe.cn/JDMKL/code/DeghostingIQADatabase.rar) | Dynamic | 20 sequences, 180 images | 2020 |
 | SICE | [TIP-2018](https://openreview.net/pdf?id=akJxphj5VC) | [Download](https://github.com/csjcai/SICE) | Static | 589 sequences, 4413 images | 2018 |
 | MEF-IQA | [TCI-2018](https://kedema.org/paper/18_TCI_MEFOpt.pdf) | [Download](https://ece.uwaterloo.ca/~k29ma/dataset/MEFOpt_Database) | Static | 24 sequences | 2018 |
 | Kalantari_dataset | [ACM-TOG-2017](https://people.engr.tamu.edu/nimak/Data/SIGGRAPH17_HDR_LoRes.pdf) | [Download](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/) | Dynamic | 89 sequences, 267 images | 2017 |
+| Sen_dataset | [ACM-TOG-2012](https://people.engr.tamu.edu/nimak/Data/SIGASIA12_HDR_PatchBasedReconstruction_LoRes.pdf) | [Download](https://web.ece.ucsb.edu/~psen/hdrvideo) | Dynamic | 8 sequences | 2012 |
 
 
 
