@@ -7,6 +7,7 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 ### 2022
 | Title                   | Model                               | Paper                         | Code                          |     Main Idea or Key Words | Label |
 |-------------------------|-------------------------------------|-------------------------------|-------------------------------|----------------------------|-------|
+|A Lightweight Network for High Dynamic Range Imaging| HU-Net | [CVPR-2022](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Yan_A_Lightweight_Network_for_High_Dynamic_Range_Imaging_CVPRW_2022_paper.pdf) | - | Lightweight Network | Dynamic |
 |Ghost-free High Dynamic Range Imaging with Context-aware Transformer | HDR-Transformer | [ECCV-2022](https://arxiv.org/pdf/2208.05114) | [HDR-Transformer](https://github.com/megvii-research/HDR-Transformer) | Context-Aware Transformer | Dynamic |
 |TransMEF: A Transformer-Based Multi-exposure Image Fusion Framework using self-supervised Multi-Task Learning| TransMEF | [AAAI-2022](https://arxiv.org/pdf/2112.01030) | [TransMEF](https://github.com/miccaiif/TransMEF) | Transformer, Self-supervised learning | Static |
 |Dual-Attention-Guided Network for Ghost-Free High Dynamic Range Imaging | DAHDRNet | [IJCV-2022](https://link.springer.com/content/pdf/10.1007/s11263-021-01535-y.pdf) | - | Dual-attention | Dynamic |
