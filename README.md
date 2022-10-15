@@ -7,7 +7,7 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 ### 2022
 | Title                   | Model                               | Paper                         | Code                          |     Main Idea or Key Words | Label |
 |-------------------------|-------------------------------------|-------------------------------|-------------------------------|----------------------------|-------|
-|A Lightweight Network for High Dynamic Range Imaging| HU-Net | [CVPR-2022](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Yan_A_Lightweight_Network_for_High_Dynamic_Range_Imaging_CVPRW_2022_paper.pdf) | - | Lightweight Network | Dynamic |
+|A Lightweight Network for High Dynamic Range Imaging| HUNet | [CVPR-2022](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Yan_A_Lightweight_Network_for_High_Dynamic_Range_Imaging_CVPRW_2022_paper.pdf) | - | Lightweight Network | Dynamic |
 |Ghost-free High Dynamic Range Imaging with Context-aware Transformer | HDR-Transformer | [ECCV-2022](https://arxiv.org/pdf/2208.05114) | [HDR-Transformer](https://github.com/megvii-research/HDR-Transformer) | Context-Aware Transformer | Dynamic |
 |TransMEF: A Transformer-Based Multi-exposure Image Fusion Framework using self-supervised Multi-Task Learning| TransMEF | [AAAI-2022](https://arxiv.org/pdf/2112.01030) | [TransMEF](https://github.com/miccaiif/TransMEF) | Transformer, Self-supervised learning | Static |
 |Dual-Attention-Guided Network for Ghost-Free High Dynamic Range Imaging | DAHDRNet | [IJCV-2022](https://link.springer.com/content/pdf/10.1007/s11263-021-01535-y.pdf) | - | Dual-attention | Dynamic |
@@ -15,6 +15,7 @@ Collect High Dynamic Range Imaging (especially for **Multi-exposure Fusion** and
 ### 2021
 | Title                   | Model                               | Paper                         | Code                          |     Main Idea or Key Words | Label |
 |-------------------------|-------------------------------------|-------------------------------|-------------------------------|----------------------------|-------|
+| Ghost-Free Deep High-Dynamic-Range Imaging Using Focus Pixels for Complex Motion Scenes | [TIP-2021](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9429936) | - | - | Focus Pixels | Dynamic |
 |ADNet: Attention-guided deformable convolutional network for high dynamic range imaging | ADNet | [CVPRW-2021](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Liu_ADNet_Attention-Guided_Deformable_Convolutional_Network_for_High_Dynamic_Range_Imaging_CVPRW_2021_paper.pdf) | [ADNet](https://github.com/Pea-Shooter/ADNet) | Deformable Convolution | Dynamic |
 |Deep Coupled Feedback Network for Joint Exposure Fusion and Image Super-Resolution | CF-Net | [TIP-2021](https://www.researchgate.net/profile/Yutong-Zhang-27/publication/349458866_Deep_Coupled_Feedback_Network_for_Joint_Exposure_Fusion_and_Image_Super-Resolution/links/60ab15e2a6fdcc6d626d23f3/Deep-Coupled-Feedback-Network-for-Joint-Exposure-Fusion-and-Image-Super-Resolution.pdf) | [CF-Net](https://github.com/ytZhang99/CF-Net) | Joint MEF and SR, Feedback Mechanism | Static |
 |Self-Gated Memory Recurrent Network for Efficient Scalable HDR deghosting | HDRRNN | [TCI-2021](https://arxiv.org/pdf/2112.13050.pdf) | [HDRRNN](https://github.com/Susmit-A/HDRRNN) | Recurrent Network | Dynamic |
